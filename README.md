@@ -58,7 +58,7 @@ Also, the screenshots show a Neovim customization. It doesn't come with the repo
 * zsh: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 * Zinit: https://github.com/zdharma-continuum/zinit
 * Starship: https://starship.rs/
-* Nerdfonts *JetBrains Mono* (number $42$ if getting it with the terminal): https://www.nerdfonts.com/font-downloads
+* Nerdfonts *JetBrains Mono*[^7]: https://www.nerdfonts.com/font-downloads
 * Fzf (fuzzy finder): https://github.com/junegunn/fzf
 * Fzf tab: https://github.com/Aloxaf/fzf-tab 
 
@@ -68,3 +68,4 @@ Also, the screenshots show a Neovim customization. It doesn't come with the repo
 [^4]: I spend too much time alone.
 [^5]: average linux experience.
 [^6]: If you notice that I forgot to add references, please let me know so I can add it immediately.
+[^7]: number $42$ if getting it with the terminal.
