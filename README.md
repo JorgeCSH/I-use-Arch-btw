@@ -29,6 +29,15 @@ Customization is done in the ```.zshrc``` file. Like other services (e.g., Neovi
 
 
 ## Screenshots
+Main Desktop ($1920 \times 1080$):
+![Desktop, not my laptop](https://github.com/JorgeCSH/I-use-Arch-btw/blob/main/screenshots/main_desktop.png)
+
+General Desktop (left display: $1366 \times 768$, right display: $1920 \times 1080$):
+![Generic battle station](https://github.com/JorgeCSH/I-use-Arch-btw/blob/main/screenshots/full_desktop.png)
+
+Using my Battlestation[^4]:
+![In use battle station](https://github.com/JorgeCSH/I-use-Arch-btw/blob/main/screenshots/custom_desktop.png)
+
 
 ## Final Words
 
@@ -38,3 +47,4 @@ Customization is done in the ```.zshrc``` file. Like other services (e.g., Neovi
 [^1]: with this I mean my configurations.
 [^2]: that must be installed separately. 
 [^3]: or similar.
+[^4]: I spend too much time alone.
