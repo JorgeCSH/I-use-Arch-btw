@@ -25,13 +25,12 @@ ZSH is a Unix shell known for its customization. Because of this, I decided to i
 
 Customization is done in the ```.zshrc``` file. Like other services (e.g., Neovim), ZSH requires a plugin manager; in this case, the chosen one is *zinit*. Additionally, a font package (ideally Nerd Fonts) is needed, and I prefer *JetBrains Mono*. The contents of ```.zshrc``` should be copied to your personal file (which should be created automatically when installing ZSH) and should be ready to go after you save it.
 
-
-
 ## To-do
 
 
 ## Screenshots
 
+## Final Words
 
 ## References
 
