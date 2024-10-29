@@ -26,7 +26,11 @@ ZSH is a Unix shell known for its customization. Because of this, I decided to i
 Customization is done in the ```.zshrc``` file. Like other services (e.g., Neovim), ZSH requires a plugin manager; in this case, the chosen one is *zinit*. Additionally, a font package (ideally Nerd Fonts) is needed, and I prefer *JetBrains Mono*. The contents of ```.zshrc``` should be copied to your personal file (which should be created automatically when installing ZSH) and should be ready to go after you save it.
 
 ## To-do
-
+* Hyprland: add basic programs[^5].
+* Hyprland: customize shell.
+* Hyprland: add global dark theme.
+* Waybar: add location temperature.
+* Waybar: finish my custom status bar.
 
 ## Screenshots
 Main Desktop ($1920 \times 1080$):
@@ -38,8 +42,10 @@ General Desktop (left display: $1366 \times 768$, right display: $1920 \times 10
 Using my Battlestation[^4]:
 ![In use battle station](https://github.com/JorgeCSH/I-use-Arch-btw/blob/main/screenshots/custom_desktop.png)
 
-
 ## Final Words
+This project is still a work in progress. I am new to the *Hyprland* world and need to polish my skills. Currently, I don’t have a lot of time to work on this, but I will be incorporating new features to make it more usable. If you like this (still developing...and pootly developed for now) custom desktop, feel free to try it and share any suggestions or comments :D, everything is welcome.
+
+Also, the screenshots show a Neovim customization. It doesn't come with the repository, but you can find it in another one I created a while ago, if you're interested.
 
 ## References
 
@@ -48,3 +54,4 @@ Using my Battlestation[^4]:
 [^2]: that must be installed separately. 
 [^3]: or similar.
 [^4]: I spend too much time alone.
+[^5]: average linux experience.
