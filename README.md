@@ -11,7 +11,7 @@ It’s important to note that, apart from the Hyprland installation, almost all 
 
 ## What will you find[^1]
 1) Hyprland.
-2) ZSH .
+2) ZSH.
 
 ## 1) Hyprland 
 ### Main config
@@ -47,11 +47,24 @@ This project is still a work in progress. I am new to the *Hyprland* world and n
 
 Also, the screenshots show a Neovim customization. It doesn't come with the repository, but you can find it in another one I created a while ago, if you're interested.
 
-## References
+## References[^6]
+### Hyprland:
+* Hyprland: https://hyprland.org/
+* Hyprpaper: https://github.com/hyprwm/hyprpaper
+* Waybar: https://github.com/Alexays/Waybar?tab=readme-ov-file
+* Waybar (in use): https://github.com/sejjy/mechabar
 
+### ZSH:
+* zsh: https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
+* Zinit: https://github.com/zdharma-continuum/zinit
+* Starship: https://starship.rs/
+* Nerdfonts *JetBrains Mono* (number $42$ if getting it with the terminal): https://www.nerdfonts.com/font-downloads
+* Fzf (fuzzy finder): https://github.com/junegunn/fzf
+* Fzf tab: https://github.com/Aloxaf/fzf-tab 
 
 [^1]: with this I mean my configurations.
 [^2]: that must be installed separately. 
 [^3]: or similar.
 [^4]: I spend too much time alone.
 [^5]: average linux experience.
+[^6]: If you notice that I forgot to add references, please let me know so I can add it immediately.
