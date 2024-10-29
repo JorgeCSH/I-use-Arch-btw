@@ -7,9 +7,11 @@ While this repository ideally should include all relevant configuration and sett
 
 Although the main idea was for me to set up everything on my system, I have also used external resources (e.g., Waybar), and in such cases, I will add the respective credits to the original authors.
 
+It’s important to note that, apart from the Hyprland installation, almost all the packages were installed using the default terminal (Kitty).
+
 ## What will you find[^1]
 1) Hyprland.
-2) ZHS shell.
+2) ZSH .
 
 ## 1) Hyprland 
 ### Main config
@@ -17,6 +19,12 @@ The *Hyprland* ``config_files`` directory that I included contain scripts I crea
 
 ### The *waybar*
 "Waybar" is the status bar on the main desktop that displays useful information about the system, such as hardware usage, date, workspaces, and more. While I refer to it as "*waybar*", it must be said that there are other customizable bars available. However, I chose this one, which must be [installed](https://github.com/Alexays/Waybar) like the other hypr extensions, though it will be in a different directory depending on your system (see the official Waybar page). To edit *waybar*, you should have basic knowledge of ```JavaScript``` and ```CSS```[^3]. In this repository, the ```waybar_config``` directory includes a custom version of an [existing](https://github.com/mxkrsv/dotfiles-old/tree/master/.config/waybar) *waybar* configuration (meaning I made some changes to it). I'm not an expert in ```JavaScript``` and ```CSS```, so I opted to use another *waybar* that must be installed according to the instructions in the repository. The *waybar* I included, along with the respective script, is still a work in progress.
+
+## 2) ZSH
+ZSH is a Unix shell known for its customization. Because of this, I decided to incorporate it alongside Kitty, the default terminal.
+
+Customization is done in the ```.zshrc``` file. Like other services (e.g., Neovim), ZSH requires a plugin manager; in this case, the chosen one is *zinit*. Additionally, a font package (ideally Nerd Fonts) is needed, and I prefer *JetBrains Mono*. The contents of ```.zshrc``` should be copied to your personal file (which should be created automatically when installing ZSH) and should be ready to go after you save it.
+
 
 
 ## To-do
