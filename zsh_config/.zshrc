@@ -50,6 +50,7 @@ zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*' menu no
 zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
+
 # Aliases
 alias ls='ls --color'
 alias nvim='nvim'
@@ -64,3 +65,5 @@ eval "$(fzf --zsh)"
 bindkey	"^[[H" beginning-of-line
 bindkey "^[[F"	end-of-line
 bindkey "^[[3~" backward-delete-char
+
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#474747"
