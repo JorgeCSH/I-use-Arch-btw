@@ -59,3 +59,8 @@ alias c='clear'
 # Shell integrations
 eval "$(fzf --zsh)"
 
+
+# Some keybinds because zsh decided to have a stroke
+bindkey	"^[[H" beginning-of-line
+bindkey "^[[F"	end-of-line
+bindkey "^[[3~" backward-delete-char
