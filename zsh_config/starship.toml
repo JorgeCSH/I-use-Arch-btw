@@ -1,12 +1,53 @@
+# Lost and found:
+# small arrow: 
+#➜
+# original >"
+#❯
+# ----------------------------------------------------------------------
+# Art attack:
+#❯>>
+# ----------------------------------------------------------------------
+
 # Get editor completions based on the config schema
 "$schema" = 'https://starship.rs/config-schema.json'
+
+# Far right of the console
+right_format = """
+$time"""
+
 
 # Inserts a blank line between shell prompts
 add_newline = true
 
+# Set if the command is in the same line or not
+[line_break]
+disabled = false
+
+# Show username
+[username]
+show_always = false
+style_user = 'bold cyan'
+style_root = 'bold cyan'
+format = '[ $user ]($style)'
+
+ #Show directory
+[directory]
+style = "bold cyan"
+format = "[󰣇 $path ]($style)"
+
 # Replace the '❯' symbol in the prompt with '➜'
 [character] # The name of the module we are configuring is 'character'
-success_symbol = '[➜](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+disabled = false
+success_symbol = '[~ ❯❯](bold green)' # The 'success_symbol' segment is being set to '➜' with the color 'bold green'
+
+error_symbol = '[~ ❯❯](bold red)'
+
+[time]
+disabled = false
+format = '[ $time]($style)'
+time_format = '%R'
+utc_time_offset = 'local'
+style = '#FF8C00'
 
 # Disable the package module, hiding it from the prompt completely
 [package]

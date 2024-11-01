@@ -66,7 +66,7 @@ vi_mode_cursor = { text = "CellBackground", cursor = "CellForeground" }
 line_indicator = { foreground = "None", background = "None" }
 # -------- Misc --------
 footer_bar = { foreground = "#ff0000", background = "#d8d8d8"} 
-selection = { text = "#181818", background = "#ff0000" }
+selection = { text = "#181818", background = "#d3d3d3" }
 transparent_background_colors = false
 draw_bold_text_with_bright_colors = true
 # -------- "Terminal" base color-scheme --------
@@ -77,8 +77,8 @@ dim_foreground = "#828482"
 bright_foreground = "None"
 # -------- Search config --------
 [colors.search]
-matches = { foreground = "#ff0000", background = "#ac4242" }
-focused_match = { foreground = "#181818", background = "#ac4242" }
+matches = { foreground = "#a9a9a9", background = "#ac4242" }
+focused_match = { foreground = "#a9a9a9", background = "#ac4242" }
 # -------- Hints color config --------
 [colors.hints]
 start = { foreground = "CellForeground", background = "CellBackground" }
