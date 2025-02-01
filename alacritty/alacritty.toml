@@ -4,11 +4,10 @@
 
 
 # Basics, prepare the setup
-general.import = [" ",
-]		# Any import must be done here
+general.import = [" "]             # Any import must be done here
 general.working_directory = "None"
-general.live_config_reload = true 
-general.ipc_socket = true 
+general.live_config_reload = true
+general.ipc_socket = true
 
 
 # Custom setup, remeber, it is written using toml
@@ -23,35 +22,35 @@ general.ipc_socket = true
 #dimensions = { columns = 2, lines = 2 }
 #position = "None" | { x = <integer>, y = <integer> } No effect hyprland 
 # --- Padding ---
-padding = { x = 0, y = 0}
-dynamic_padding = true 
+padding = { x = 0, y = 0 }
+dynamic_padding = true
 decorations = "Full"
 # --- "Transparency" ---
-opacity = 0.69
-blur = false		# requires external package (or using some "magic")
+opacity = 1
+blur = false # requires external package (or using some "magic")
 # --- Window config (literally) ---
 startup_mode = "Windowed"
 title = "Terminal"
 dynamic_title = true
-class = { instance = "Alacritty", general = "Alacritty" }  # Only linux and BSD
+class = { instance = "Alacritty", general = "Alacritty" } # Only linux and BSD
 resize_increments = false
 
 
 # Scrolling config 
 [scrolling]
-history = 10000		# Max. lines history
-multiplier = 1		# n. lines we scrole at the time
+history = 10000 # Max. lines history
+multiplier = 1  # n. lines we scrole at the time
 
 
 # Fonts set up
 [font]
 # --- Type ---
-normal = { family = "JetBrainsMono Nerd Font", style = "Normal"}
-bold = { style = "Bold"}
-italic = {style = "Italic"}
-bold_italic = {style = "BoldItalic"}
+normal = { family = "JetBrainsMono Nerd Font", style = "Normal" }
+bold = { style = "Bold" }
+italic = { style = "Italic" }
+bold_italic = { style = "BoldItalic" }
 # --- Size and "Position" ---
-size = 12.0		# 1080p main display
+size = 12.0                     # 1080p main display
 offset = { x = 0, y = 0 }
 glyph_offset = { x = 2, y = 0 }
 builtin_box_drawing = true
@@ -65,14 +64,14 @@ cursor = { text = "CellBackground", cursor = "CellForeground" }
 vi_mode_cursor = { text = "CellBackground", cursor = "CellForeground" }
 line_indicator = { foreground = "None", background = "None" }
 # -------- Misc --------
-footer_bar = { foreground = "#ff0000", background = "#d8d8d8"} 
+footer_bar = { foreground = "#ff0000", background = "#d8d8d8" }
 selection = { text = "#181818", background = "#d3d3d3" }
 transparent_background_colors = false
 draw_bold_text_with_bright_colors = true
 # -------- "Terminal" base color-scheme --------
 [colors.primary]
-background = '#0a0012'  # Background color
-foreground = '#a9b1d6' 	# "Fonts" color
+background = '#05041f'     # Background color
+foreground = '#a9b1d6'     # "Fonts" color
 dim_foreground = "#828482"
 bright_foreground = "None"
 # -------- Search config --------

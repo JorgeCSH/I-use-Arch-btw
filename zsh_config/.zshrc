@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # Plugin manager
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 # Check if it is already installed
@@ -9,7 +16,10 @@ fi
 source "${ZINIT_HOME}/zinit.zsh"
 
 # Starship Shell
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
+
+# Powerlevel10k
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Plugins
 zinit light zsh-users/zsh-syntax-highlighting	# Syntax higlight
@@ -55,6 +65,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias nvim='nvim'
 alias c='clear'
+alias modo_python='source ~/python-cg/bin/activate'
 
 
 # Shell integrations
@@ -67,3 +78,11 @@ bindkey "^[[F"	end-of-line
 bindkey "^[[3~" backward-delete-char
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#474747"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
