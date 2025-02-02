@@ -16,11 +16,8 @@ fi
 source "${ZINIT_HOME}/zinit.zsh"
 
 # Starship Shell
-#eval "$(starship init zsh)"
-
-# Powerlevel10k
-ZSH_THEME="powerlevel10k/powerlevel10k"
-
+eval "$(starship init zsh)"
+#
 # Plugins
 zinit light zsh-users/zsh-syntax-highlighting	# Syntax higlight
 zinit light zsh-users/zsh-completions		# Completetion (1)
@@ -67,10 +64,7 @@ alias nvim='nvim'
 alias c='clear'
 alias modo_python='source ~/python-cg/bin/activate'
 
-
-# Shell integrations
-eval "$(fzf --zsh)"
-
+#eval "$(fzf --zsh)"
 
 # Some keybinds because zsh decided to have a stroke
 bindkey	"^[[H" beginning-of-line
@@ -82,7 +76,7 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#474747"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
